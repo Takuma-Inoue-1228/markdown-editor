@@ -20,4 +20,9 @@ module.exports = {
     filename: "index.js",
     publicPath: "dist/",
   },
+  devServer: {
+    publicPath: "/dist/",
+    hot: true,
+    open: true,
+  },
 };
